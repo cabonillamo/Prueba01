@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br />
         <div class="mx-auto" style="width: 300px">
-            <h2>Listado de Productos</h2>
+            <h2>Listado de Categorías</h2>
         </div>
         <br />
         <div class="container">

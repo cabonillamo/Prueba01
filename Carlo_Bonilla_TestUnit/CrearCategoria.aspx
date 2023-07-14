@@ -4,9 +4,6 @@
     <div class="mx-auto" style="width: 250px">
         <asp:Label runat="server" CssClass="h2" ID="lblTitulo"></asp:Label>
     </div>
-    
-
-       
         <!--Este div es para el espacio donde se digitá el ID de la Categoría -->
         <div class="mb-3">
             <label class="form-label">ID Categoría</label>
@@ -20,7 +17,7 @@
          <!--Este div es para el espacio donde se digitá el estado de la categoría -->
         <div class="mb-3">
             <label class="form-label">Estado</label>
-            <asp:TextBox runat="server" CssClass="form-control" ID="txtEstado"></asp:TextBox>
+            <asp:TextBox runat="server" CssClass="form-control" ID="txtEstado" PlaceHolder="Activa/Inactiva"></asp:TextBox>
         </div>
          <!--Este es el botón para guardar la categoria-->
         <asp:Button runat="server" CssClass="btn btn-primary" ID="BtnCreate" Text="Crear" Visible="false" OnClick="BtnCreate_Click"/>
